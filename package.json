@@ -1,0 +1,19 @@
+{
+  "name": "03-meeti",
+  "version": "1.0.0",
+  "description": "Aprendiendo Bs5 y SASS",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss --css build/css/style.css --content index.html --output build/css/meeti.css "
+  },
+  "author": "Tomas Cococcioni",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
